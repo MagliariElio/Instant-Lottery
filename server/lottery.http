@@ -1,0 +1,20 @@
+
+### Test Registrazione (POST /api/register)
+POST http://localhost:3001/api/register
+Content-Type: application/json
+
+{
+  "username": "newuser",
+  "password": "newpassword"
+}
+
+
+
+### Test Login (POST /api/session)
+POST http://localhost:3001/api/session
+Content-Type: application/json
+
+{
+  "username": "newuser",
+  "password": "newpassword"
+}

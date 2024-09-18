@@ -1,0 +1,272 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.navbar-custom {
+  background: linear-gradient(90deg, #002147, #001526);
+}
+
+.sidebar-custom {
+  background-color: #f4f6f9;
+}
+
+.sidebar-link:hover,
+.sidebar-link:active {
+  background-color: #002147;
+  color: #fff;
+}
+
+.action-button {
+  font-size: 18px;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #28a745;
+  color: #fff;
+}
+
+.action-button:hover {
+  background-color: #1e7e34;
+  color: #fff;
+}
+
+.sidebar-custom {
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-link {
+  color: #333;
+  background-color: #f1c40f;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-link:hover {
+  background-color: #f1c40f;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-section {
+  padding: 30px;
+  min-height: 100vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-custom {
+  width: 100%;
+  background: linear-gradient(90deg, #002147, #001526);
+  padding: 15px 0;
+}
+
+.footer-custom .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer-logo {
+  height: 25px;
+}
+
+.footer-text {
+  color: #ced4da;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.superenalotto-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 15px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.number-button {
+  background-color: #f1f1f1;
+  border: 2px solid #002147;
+  color: #002147;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 15px;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.number-button.selected {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+.number-button:hover {
+  transform: scale(1.05);
+  background-color: #002147;
+  color: #fff;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #2c3e50;
+}
+
+.navbar-custom {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.sidebar-custom {
+  background-color: #2c3e50;
+}
+
+.sidebar-link {
+  color: #ecf0f1;
+}
+
+.sidebar-link:hover {
+  background-color: #1e3799;
+  color: #fff;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.number-grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 15px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.number-button {
+  background-color: #f1f1f1;
+  border: 2px solid #002147;
+  color: #002147;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 15px;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.number-button.selected {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+.number-button:hover {
+  transform: scale(1.05);
+  background-color: #002147;
+  color: #fff;
+}
+
+.draw-number-success{
+  color:#28a745;
+}
+
+.draw-number {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 55px;
+  height: 55px;
+  flex-wrap: nowrap;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.draw-number:hover {
+  background-color: #34495e;
+}
+
+.last-draw-card {
+  background-color: #f4f6f7;
+  border: 1px solid #bdc3c7;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.last-draw-card h3 {
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.last-draw-card span {
+  color: #e74c3c;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+  font-size: 20px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.modal-footer button {
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
