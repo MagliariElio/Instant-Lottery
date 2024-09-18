@@ -143,7 +143,7 @@ design and all necessary checks.
 ![Past draws page ](./img/past_draws.jpg)
 
 ### Top players
-![Top players](./img/players.top)
+![Top players](./img/players_top.jpg)
 
 ### Rules
 ![Main rules](./img/rules.jpg)
