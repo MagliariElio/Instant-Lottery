@@ -1,5 +1,10 @@
 # Instant-Lottery
 
+Grade: 31 out of 30
+
+Politecnico di Torino
+
+## Requirements
 Create a web application to play an on-line version of an Instant Lottery. The game consists in a
 periodic drawing (extraction) of a set of numbers, where the players may bet on some of those
 numbers on each of these drawings. All website functionalities are reserved to logged-in users
@@ -154,8 +159,8 @@ design and all necessary checks.
 
 ## Users Credentials
 
-- username: michael.brown, password: michaelBrown
-- username: lisa.white, password: lisaWhite
-- username: david.green, password: davidGreen
-- username: claire.harris, password: claireHarris
-- username: james.wilson, password: jamesWilson
+- **username**: michael.brown, **password**: michaelBrown
+- **username**: lisa.white, **password**: lisaWhite
+- **username**: david.green, **password**: davidGreen
+- **username**: claire.harris, **password**: claireHarris
+- **username**: james.wilson, **password**: jamesWilson
