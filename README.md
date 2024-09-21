@@ -2,6 +2,8 @@
 
 Grade: 31 out of 30
 
+Course: Web Application 1
+
 Politecnico di Torino
 
 ## Requirements
