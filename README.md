@@ -1,10 +1,10 @@
 # Instant-Lottery
 
-Grade: 31 out of 30
+### Course: Web Application 1
+### Grade: 30 cum laude
+### Politecnico di Torino
 
-Course: Web Application 1
-
-Politecnico di Torino
+---
 
 ## Requirements
 Create a web application to play an on-line version of an Instant Lottery. The game consists in a
